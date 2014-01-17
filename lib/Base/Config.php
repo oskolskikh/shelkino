@@ -1,11 +1,8 @@
 <?php
 
 namespace Base;
-use ArrayAccess;
-use Countable;
-use Iterator;
 
-Class Config implements Countable, Iterator, ArrayAccess
+Class Config implements \Countable, \Iterator, \ArrayAccess
 {
 
     protected $count;
