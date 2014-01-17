@@ -1,3 +1,5 @@
 <?php
     require_once 'Autoloader.php';
-    Base\WebApplication::init(require 'config/application.config.php')->run();
+    Loader\Autoloader::register();
+    $application = new Base\WebApplication(require '../config/application.config.php');
+    
