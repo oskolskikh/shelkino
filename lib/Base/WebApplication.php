@@ -10,6 +10,6 @@
         public function __construct($configuration = array())
         {
             $this->config = new Config($configuration);
-            
+            $this->request = new Request();
         }
     }
