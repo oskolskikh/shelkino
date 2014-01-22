@@ -12,4 +12,8 @@
             $this->config = new Config($configuration);
             $this->request = new Request();
         }
+        
+        public function run(){
+            
+        }
     }
