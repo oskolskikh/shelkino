@@ -17,13 +17,3 @@
 
  http://suntime.com.ua/
 
-
-
-test !!!
-
-#commit
-#commit1
-commit2
-
-------------------------------------
-Zet
